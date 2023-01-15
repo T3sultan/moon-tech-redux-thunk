@@ -7,7 +7,7 @@ import thunk from "redux-thunk";
 
 const store = createStore(
   rootReducer,
-  composeWithDevTools(applyMiddleware(cartCounter, thunk,logger))
+  composeWithDevTools(applyMiddleware(cartCounter, thunk, logger))
 );
 
 export default store;
